@@ -1,1 +1,41 @@
 <search isNavigator="{{true}}"></search>
+
+<view class="module-group">
+  <view class="module-top">
+    <view class="module-title">电影</view>
+    <navigator class="module-more">更多</navigator>
+  </view>
+
+  <scroll-view class="module-scroll-view" scroll-x="{{true}}">
+       <navigator class="item-navigator">
+           <view class="item-group">
+               <view class="item-image"><image class="thum" src="/images/joker.webp"></image></view>
+               <view class="item-title">小丑 Joker 小丑 Joker 小丑 Joker</view>
+               <stars rate="{{7.6}}"></stars>
+           </view>
+       </navigator>
+       <navigator class="item-navigator">
+           <view class="item-group">
+               <view class="item-image"><image class="thum" src="/images/joker.webp"></image></view>
+               <view class="item-title">小丑 Joker</view>
+               <stars rate="{{6.2}}"></stars>
+           </view>
+       </navigator>
+        <navigator class="item-navigator">
+           <view class="item-group">
+               <view class="item-image"><image class="thum" src="/images/joker.webp"></image></view>
+               <view class="item-title">小丑 Joker</view>
+               <stars rate="{{9.2}}"></stars>
+           </view>
+       </navigator>
+        <navigator class="item-navigator">
+           <view class="item-group">
+               <view class="item-image"><image class="thum" src="/images/joker.webp"></image></view>
+               <view class="item-title">小丑 Joker</view>
+               <stars rate="{{8.7}}"></stars>
+           </view>
+       </navigator>
+    
+  </scroll-view>
+
+</view>

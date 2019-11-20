@@ -1,21 +1,58 @@
 /**index.wxss**/
-.userinfo {
+
+.module-group{
+  background-color: #fff;
+  padding: 40rpx;
+}
+
+.module-top{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  font-size: 36rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.module-title{
+  color: #494949;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.module-more{
+  color: #41be57;
 }
 
-.usermotto {
-  margin-top: 200px;
+.module-scroll-view{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 400rpx;
+  white-space: nowrap;
+}
+
+.item-navigator{
+  width: 200rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+}
+
+.item-navigator:last-of-type{
+  margin-right:0;
+}
+
+.item-group{
+  width: 100%;
+}
+
+.item-image{
+  height: 284rpx;
+}
+
+.item-image .thum{
+  width: 100%;
+  height: 100%;
+}
+
+.item-title{
+  font-size: 28rpx;
+  margin-top: 10rpx;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

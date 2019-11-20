@@ -1,0 +1,10 @@
+/* components/stars/stars.wxss */
+.rate-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_point{
+  padding-left: 6rpx;
+}
