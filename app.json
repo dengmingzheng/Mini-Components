@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/joke/joke",
     "pages/segmentpage/segmentpage",
-    "pages/index/index",
+    "pages/search/search",
     "pages/logs/logs"
   ],
   "window": {
