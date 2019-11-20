@@ -1,0 +1,5 @@
+<block wx:for="{{jokeData}}" wx:key="{{item.hashId}}">
+<view class="group">{{item.content}}</view>
+</block>
+<loading hasmore="{{true}}"></loading>
+

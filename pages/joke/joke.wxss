@@ -1,0 +1,6 @@
+/* pages/joke/joke.wxss */
+
+.group{
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
