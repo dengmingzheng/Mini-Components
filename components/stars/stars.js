@@ -23,6 +23,10 @@ Component({
     "starSize": {
       "type": "Number",
       "value": 20
+    },
+    "marginTop":{
+      "type": "Number",
+      "value": 0
     }
   },
 
