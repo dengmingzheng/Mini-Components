@@ -1,2 +1,5 @@
-<!--pages/segmentpage/segmentpage.wxml-->
-<text>pages/segmentpage/segmentpage.wxml</text>
+<segment items="{{items}}" defaultIndex="news" bind:changeItem="onChangeItemEvent">
+  <view slot="news">这是最新</view>
+  <view slot="focus">这是关注</view>
+   <view slot="city">这是同城</view>
+</segment>

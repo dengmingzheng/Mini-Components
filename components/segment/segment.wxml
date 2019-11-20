@@ -1,2 +1,14 @@
-<!--components/segment/segment.wxml-->
-<text>components/segment/segment.wxml</text>
+<view class="segment-group">
+  <view class="segment-header">
+    <block wx:for="{{items}}" wx:key="{{item.key}}">
+      <view class="segment-item active" wx:if="{{currentIndex == item.key}}" data-index="{{item.key}}" bind:tap="onItemEvent">{{item.name}}</view>
+      <view class="segment-item" wx:else data-index="{{item.key}}" bind:tap="onItemEvent">{{item.name}}</view>
+    </block>
+  </view>
+
+  <view class="segment-content">
+    <block wx:for="{{items}}" wx:key="{{item.key}}">
+      <slot name="{{item.key}}" wx:if="{{currentIndex == item.key}}"></slot>
+    </block>
+  </view>
+</view>
